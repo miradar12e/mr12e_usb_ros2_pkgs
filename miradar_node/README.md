@@ -39,7 +39,7 @@ pcl_ros
 ROS Node for converting miradar12e to ROS.
 
 ```bash
-ros2 run miradar_node miradar_node  --ros-args devicename=/dev/ttyUSB0
+ros2 run miradar_node miradar_node  --ros-args devicename=/dev/ttyACM0
 ```
 
 ### ppi_visualizer.py
@@ -75,7 +75,7 @@ setup the device name as devicefile.
 e
 Linux
 ```bash
-ros2 run miradar_node miradar_node _devicename:=/dev/ttyUSB0
+ros2 run miradar_node miradar_node _devicename:=/dev/ttyACM0
 ```
 
 ## Dynamic Reconfigure Param
